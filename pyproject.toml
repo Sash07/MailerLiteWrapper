@@ -29,12 +29,11 @@ requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: Public Domain",
-    "Operating System :: Windows",
+    "Operating System :: OS Independent",
     "Topic :: Communications :: Email",
     "Intended Audience :: Developers",
 ]
 
-# This lists the other packages that your package needs to run.
 dependencies = [
     "mailerlite-python>=1.1.0",
 ]
@@ -44,5 +43,4 @@ dependencies = [
 # These links will appear on the PyPI project page.
 # Replace 'your-github-username' and 'your-repo-name' with your actual details.
 "Homepage" = "https://github.com/Sash07/MailerLiteWrapper"
-"Bug Tracker" = "https://github.com/your-github-username/your-repo-name/issues"
-# --- YOU MUST EDIT THE SECTION ABOVE ---
+"Bug Tracker" = "https://github.com/Sash07/MailerLiteWrapper/issues"
