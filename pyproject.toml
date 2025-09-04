@@ -5,10 +5,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-# IMPORTANT: The 'name' must be unique on PyPI. If 'py-mailerlite-wrapper' is taken,
-# you will get an error when you upload. Choose another name like
-# 'mailerlite-client-helper-yourname' if that happens.
-name = "py-mailerlite-wrapper"
+name = "mailerlite_wrapper"
 
 # Start with version 0.1.0. You will increase this for future updates.
 version = "0.1.0"
