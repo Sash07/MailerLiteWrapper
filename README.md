@@ -7,7 +7,7 @@ A simple, class-based Python wrapper to make common MailerLite API calls more co
 Install the package from PyPI:
 
 ```bash
-pip install py-mailerlite-wrapper
+pip install mailerlite-wrapper
 
 # USAGE
 from mailerlite_wrapper import MailerLiteWrapper
