@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "mailerlite_wrapper"
 
-version = "0.1.1"
+version = "0.1.0"
 
 authors = [
   { name="Sash Kap", email="sashkap2521@gmail.com" },
@@ -29,5 +29,5 @@ classifiers = [
 ]
 
 dependencies = [
-    "mailerlite-python>=0.1.10",
+    "mailerlite>=0.1.10",
 ]
