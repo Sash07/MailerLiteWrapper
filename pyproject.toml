@@ -8,7 +8,7 @@ build-backend = "hatchling.build"
 name = "mailerlite_wrapper"
 
 # Start with version 0.1.0. You will increase this for future updates.
-version = "0.1.0"
+version = "0.1.1"
 
 authors = [
   { name="Sash Kap", email="sashkap2521@gmail.com" },
