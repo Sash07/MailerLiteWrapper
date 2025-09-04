@@ -1,0 +1,48 @@
+# This is the configuration file for your Python package.
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+# IMPORTANT: The 'name' must be unique on PyPI. If 'py-mailerlite-wrapper' is taken,
+# you will get an error when you upload. Choose another name like
+# 'mailerlite-client-helper-yourname' if that happens.
+name = "py-mailerlite-wrapper"
+
+# Start with version 0.1.0. You will increase this for future updates.
+version = "0.1.0"
+
+authors = [
+  { name="Sash Kap", email="sashkap2521@gmail.com" },
+]
+
+description = "A simple, class-based Python wrapper for the MailerLite API."
+
+# This tells PyPI to use your README file as the long description.
+readme = "README.md"
+
+# This specifies the minimum version of Python your code works with.
+requires-python = ">=3.8"
+
+# These are standardized "tags" for your package.
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Public Domain",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Email",
+    "Intended Audience :: Developers",
+]
+
+# This lists the other packages that your package needs to run.
+dependencies = [
+    "mailerlite-python>=1.1.0",
+]
+
+[project.urls]
+# --- YOU MUST EDIT THE SECTION BELOW ---
+# These links will appear on the PyPI project page.
+# Replace 'your-github-username' and 'your-repo-name' with your actual details.
+"Homepage" = "https://github.com/your-github-username/your-repo-name"
+"Bug Tracker" = "https://github.com/your-github-username/your-repo-name/issues"
+# --- YOU MUST EDIT THE SECTION ABOVE ---
