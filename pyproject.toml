@@ -32,7 +32,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "mailerlite-python>=1.1.0",
+    "mailerlite-python>=2025-09-04",
 ]
 
 [project.urls]
