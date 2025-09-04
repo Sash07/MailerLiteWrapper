@@ -29,7 +29,7 @@ requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: Public Domain",
-    "Operating System :: OS Independent",
+    "Operating System :: Windows",
     "Topic :: Communications :: Email",
     "Intended Audience :: Developers",
 ]
@@ -43,6 +43,6 @@ dependencies = [
 # --- YOU MUST EDIT THE SECTION BELOW ---
 # These links will appear on the PyPI project page.
 # Replace 'your-github-username' and 'your-repo-name' with your actual details.
-"Homepage" = "https://github.com/your-github-username/your-repo-name"
+"Homepage" = "https://github.com/Sash07/MailerLiteWrapper"
 "Bug Tracker" = "https://github.com/your-github-username/your-repo-name/issues"
 # --- YOU MUST EDIT THE SECTION ABOVE ---
