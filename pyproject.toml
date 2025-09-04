@@ -29,5 +29,5 @@ classifiers = [
 ]
 
 dependencies = [
-    "mailerlite-python>=2025-09-04",
+    "mailerlite-python>=0.1.10",
 ]
